@@ -16,11 +16,7 @@
     </main>
   </div>
 </template>
-<style>
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-</style>
+
 <style lang="scss">
   @import url('assets/luisa-common.scss');
   @import url('assets/landing.scss');

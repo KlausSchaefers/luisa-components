@@ -1,17 +1,17 @@
-import { createMemoryHistory, createRouter } from 'vue-router'
+import { createWebHashHistory, createRouter } from 'vue-router'
 
 import Home from '../views//Home.vue'
-import ToggleButton from '../views/ToggleButton.vue'
+import ToggleButtonView from '../views/ToggleButtonView.vue'
 
 const routes = [
   { path: '/', component: Home },
-  { path: '/toggle_button', component: ToggleButton },
+  { path: '/toggle_button', component: ToggleButtonView },
 ]
 
 const router = createRouter({
-  history: createMemoryHistory(),
+  history: createWebHashHistory(),
   routes,
 })
 
-console.log('Router initialized with routes:', routes)
+
 export default router;
