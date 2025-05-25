@@ -1,0 +1,26 @@
+html, body{
+    background: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.landing{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+}
+
+.landing-sidebar {
+    width: 256px;
+    border-right: 1px solid #ccc;
+    height: 100vh;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.landing-main {
+    padding: 16px;
+}
